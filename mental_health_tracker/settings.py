@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-%*+kb0n#fig##gn$6w_291qygg6ajp9ns(x_6zc@_ti#483r9a
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "alica-kinar-mentalhealthtracker.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "alica-kinar-mentalhealthtracker2.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -125,6 +125,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://alica-kinar-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://alica-kinar-mentalhealthtracker.pbp.cs.ui.ac.id/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://alica-kinar-mentalhealthtracker2.pbp.cs.ui.ac.id/", "https://alica-kinar-mentalhealthtracker2.pbp.cs.ui.ac.id/"]
 
 # KOMEN TEST
