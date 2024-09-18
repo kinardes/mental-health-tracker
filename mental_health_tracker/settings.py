@@ -127,3 +127,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://alica-kinar-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://alica-kinar-mentalhealthtracker.pbp.cs.ui.ac.id/"]
 
+# KOMEN TEST
